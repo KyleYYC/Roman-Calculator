@@ -1,0 +1,103 @@
+      html {
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Comic Sans MS;
+        background: linear-gradient(#900065, #ff1a00);
+      }
+
+      .calculator-box {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        width: 400px;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, .5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .info-box {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        width: 400px;
+        padding: 40px;
+        transform: translate(-50%, -50%);
+        background: rgba(0, 0, 0, .5);
+        box-sizing: border-box;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        border-radius: 10px;
+      }
+
+      .calculator-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+      }
+
+      .info-box h2 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+      }
+
+      .info-box p {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+      }
+
+      .calculator-box .roman-box {
+        position: relative;
+        text-alight: left;
+      }
+
+      .calculator-box .roman-box input {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px;
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+      }
+
+      .calculator-box .roman-box p {
+        color: #fff;
+      }
+
+      .button {
+        box-shadow: inset 0px 34px 0px -15px #b54b3a;
+        background-color: #a73f2d;
+        border: 1px solid #241d13;
+        cursor: pointer;
+        color: #ffffff;
+        margin: 0 auto;
+        display: block font-family:Arial;
+        font-size: 15px;
+        font-weight: bold;
+        padding: 9px 23px;
+        text-decoration: none;
+        text-shadow: 0px -1px 0px #7a2a1d;
+      }
+
+      .button:hover {
+        background-color: #b34332;
+      }
+
+      .button:active {
+        position: relative;
+        top: 1px;
+      }
